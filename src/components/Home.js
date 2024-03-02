@@ -1,9 +1,13 @@
 import React from "react";
 import img_home2 from "../assets/8.png";
-import {AiFillGithub, AiFillApple, AiFillAmazonCircle, AiFillLinkedin} from 'react-icons/ai';
+import {
+  AiFillGithub,
+  AiFillApple,
+  AiFillAmazonCircle,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 const Home = () => {
-  //   const img_home2 = "../assets/.jpg";
 
   return (
     <>
@@ -40,41 +44,46 @@ const Home = () => {
         </div>
       </div>
 
-
       <div className="home4" id="brands">
         <div>
+          <h1>Brands</h1>
+          <article>
+            <div
+              style={{
+                animationDelay: "0.3s",
+              }}
+            >
+              <AiFillGithub />
+              <p>GitHub</p>
+            </div>
 
-        <h1>Brands</h1>
-            <article>
-                <div style={{
-                    animationDelay: "0.3s"
-                }}>
-                    <AiFillGithub/>
-                    <p>GitHub</p>
-                </div>
+            <div
+              style={{
+                animationDelay: "0.5s",
+              }}
+            >
+              <AiFillAmazonCircle />
+              <p>Amazon</p>
+            </div>
 
-                <div style={{
-                    animationDelay: "0.5s"
-                }}>
-                    <AiFillAmazonCircle/>
-                    <p>Amazon</p>
-                </div>
+            <div
+              style={{
+                animationDelay: "0.7s",
+              }}
+            >
+              <AiFillApple />
+              <p>Apple</p>
+            </div>
 
-                <div style={{
-                    animationDelay: "0.7s"
-                }}>
-                    <AiFillApple/>
-                    <p>Apple</p>
-                </div>
-
-                <div style={{
-                    animationDelay: "0.9s"
-                }}>
-                    <AiFillLinkedin/>
-                    <p>LinkedIn</p>
-                </div>
-
-            </article>
+            <div
+              style={{
+                animationDelay: "0.9s",
+              }}
+            >
+              <AiFillLinkedin />
+              <p>LinkedIn</p>
+            </div>
+          </article>
         </div>
       </div>
     </>

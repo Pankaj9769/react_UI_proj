@@ -62,7 +62,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 5rem;
+        padding: 1rem;
         height: 100vh;
 
         > p{
@@ -130,7 +130,7 @@
     > div{
         
         background-color: $third;
-        border-radius: 200px 0 0 0;
+        border-radius: 200px 0 0 200px;
         width: 70%;
         height: 70vh;
         padding: 2rem;

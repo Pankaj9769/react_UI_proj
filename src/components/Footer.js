@@ -11,7 +11,7 @@ const Footer = () => {
     <footer id="">
       <div>
         <h1>
-          <span>UI</span>Proj
+        Element<span>UI</span>
         </h1>
         <p>©All Rights Reserved 2023</p>
       </div>
